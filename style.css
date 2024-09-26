@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding: 15px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+/* Top Banner */
+.top-banner {
+    background-color: navy;
+    background-size: 20px;
+}
+.banner-text {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+/* Main Nav */
+.main-nav{
+    justify-content: space-between;
+}
+.company-logo img{
+    width: 200px;
+}
+.nav-links ul{
+    gap: 20px;
+}
+.hover-link {
+    color: black;
+}
+.hover-link:hover{
+    color: navy;
+}
+
+
+
+
+/* Carousal */
+.carousal{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+/* Top Brands */
+.img {
+    justify-content: space-between;
+    gap: 80px;
+}
+.imgSize{
+    max-width: 150px;
+}
+
+
+
+
+
+/* Featured Products */
+.imgSize1{
+    height: 100px;
+    padding-left: 20px;
+}
+.gp{
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.item{
+    margin-top: 20px;
+    height: 300px;
+    width: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+.info{
+    text-align: center;
+}.b{
+    margin-left: 25px;
+    padding: 5px 5px;
+    background-color: rgb(80, 3, 151);
+    color: white;
+    align-items: center;
+}
+.h3{
+    margin-left: 80px;
+}
+/* .imgSize2{
+    height: 150px;
+} */
+
+
+
+
+
+/* Discount Banner */
+.discount-banner{
+    margin-top: 30px;
+    justify-content: space-between;
+    background-color: rgb(176, 122, 227);
+    border-radius: 5px;
+}
+.itemd{
+    color:black;
+    flex-direction: column;
+    gap: 15px;
+}
+.sitem{
+    background-color: rgb(80, 3, 151);
+    color: white;
+    padding: 10px 10px;
+    margin-right: 5px;
+}
+.btn1{
+    background-color: rgb(80, 3, 151);
+    color: white;
+    padding: 15px 15px;
+    font-size: large;
+}
+
+
+/* Proven Bestsellers */
+.proven-bestsellers{
+    margin-top: 20px;
+}
+.itemp{
+    gap: 85px;
+}
+.itemc{
+    flex-direction: column;
+    border-radius: 10px;
+}
+.imgSizep{
+    height: 120px;
+}
+.omega{
+    margin-top: 20px;
+}
+
+
+
+/* Shop By */
+.shop-by{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.gpp{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.itemc1{
+    flex-direction: column;
+    border-radius: 10px;
+}
+/* .imgSizep{
+    height: 120px;
+} */
+
+/* Deal */
+.deal{
+    margin-left: 50px;
+}
+
+
+
+/* Extra */
+.extra{
+    margin-top: 40px;
+    gap: 50px;
+}
+.imgSize3{
+    width: 400px;
+}
+.right{
+    flex-direction: column;
+}
+.tp{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.ep{
+    background-color: rgb(94, 8, 155);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+/* Bottom Image */
+.imgSize2{
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+}
+
+
+
+
+/* Footer */
+.footer{
+    background-color: rgb(94, 8, 155);
+    padding-block: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.link-column{
+    flex-direction: column;
+    gap: 25px;
+}
+/* .link-column text {
+    color: white;
+} */
+.hover-link{
+    color: white;
+    font-weight: 200;
+}
+.text{
+    color: white;
+    max-width: 350px;
+    font-weight: 800;
+}
+.b1{
+    background-color: rgb(94, 8, 155);
+    border-color: white;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
